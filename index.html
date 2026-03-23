@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Choque Elétrico em Foco</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="header__logo">⚡ Choque Elétrico em Foco</a>
+      <button class="header__toggle" id="navToggle" aria-label="Abrir navegação">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="header__nav" id="navMenu">
+        <ul class="header__links">
+          <li><a href="#introducao" class="header__link">Introdução</a></li>
+          <li><a href="#efeitos" class="header__link">Efeitos no Corpo</a></li>
+          <li><a href="#socorro" class="header__link">Primeiros Socorros</a></li>
+          <li><a href="#prevencao" class="header__link">Prevenção</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="container hero__content" data-animate>
+      <h1 class="hero__title">Choque Elétrico: entender para prevenir</h1>
+      <p class="hero__subtitle">
+        A eletricidade está presente em quase todas as atividades do dia a dia. 
+        Apesar de ser essencial para a vida moderna, ela também pode representar um grande risco 
+        quando utilizada de forma incorreta.
+      </p>
+      <p class="hero__subtitle">
+        Este site reúne os principais conceitos, riscos e condutas de emergência em linguagem clara.
+      </p>
+      <a href="#introducao" class="btn btn--primary">Veja o conteúdo abaixo</a>
+    </div>
+  </section>
+
+  <section class="section" id="introducao">
+    <div class="container">
+      <span class="section__badge">Intro</span>
+      <h2 class="section__title">Introdução e conceito</h2>
+
+      <div class="split" data-animate>
+        <article class="info-panel">
+          <h3>O que é choque elétrico</h3>
+          <p>
+            O choque elétrico acontece quando uma pessoa entra em contato com uma
+            fonte de energia elétrica e a corrente atravessa seu corpo.
+          </p>
+          <ul>
+            <li>Tocar em fios desencapados.</li>
+            <li>Utilizar equipamentos danificados.</li>
+            <li>Usar aparelhos elétricos perto da água.</li>
+            <li>Encostar em estruturas energizadas.</li>
+          </ul>
+          <p>
+            <span class="warning-text">
+              Dependendo da intensidade da corrente e do tempo de exposição, 
+              os efeitos podem variar desde um simples susto até consequências graves, 
+              como queimaduras, parada cardíaca ou morte.
+            </span>
+          </p>
+          <p>
+            Como o corpo humano possui água e sais minerais, ele conduz
+            eletricidade com facilidade.
+          </p>
+        </article>
+
+        <article class="info-panel info-panel--alert">
+          <h3>Objetivo deste material</h3>
+          <p>
+            Informar, prevenir acidentes e ensinar o que fazer em caso de choque
+            elétrico com orientações práticas para casa e trabalho.
+          </p>
+          <div class="mini-grid">
+            <div>
+              <strong>192</strong>
+              <span>SAMU</span>
+            </div>
+            <div>
+              <strong>193</strong>
+              <span>Bombeiros</span>
+            </div>
+            <div>
+              <strong>RCP</strong>
+              <span>Se necessário</span>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="card-grid" data-animate>
+        <article class="card">
+          <h3 class="card__title">Como a eletricidade afeta o corpo</h3>
+          <p class="card__text">
+            O organismo humano usa impulsos elétricos naturais para controlar
+            batimentos cardíacos, movimentos musculares e o sistema nervoso.
+          </p>
+          <p class="card__text">
+            Quando uma corrente elétrica externa entra no corpo, ela pode desorganizar 
+            esses sinais naturais, causando diversos efeitos.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3 class="card__title">Caminhos mais perigosos</h3>
+          <p class="card__text">
+            A gravidade depende do caminho que a corrente percorre no corpo. 
+          </p>
+          <p class="card__text">
+            Os caminhos mais perigosos são os que passam por coração, cérebro e pulmões.
+          </p>
+          <p class="card__text">
+            Exemplos de trajetos perigosos:
+          </p>
+          <ul class="card__list">
+            <li>Mão para mão.</li>
+            <li>Mão para pé.</li>
+            <li>Cabeça para pé.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3 class="card__title">Alerta crítico</h3>
+          <p class="card__text">
+            <span class="danger-text">
+              Quando o choque atravessa o tórax, o risco de parada cardíaca aumenta consideravelmente.
+            </span>
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="efeitos">
+    <div class="container">
+      <span class="section__badge">Efeitos no corpo</span>
+      <h2 class="section__title">Principais efeitos no corpo humano</h2>
+
+      <div class="card-grid card-grid--effects">
+        <article class="card" data-animate>
+          <h3 class="card__title">Contrações musculares</h3>
+          <p class="card__text">
+            Provocam contrações involuntárias, dificuldade para soltar o objeto
+            energizado, perda de controle corporal e quedas.
+          </p>
+          <p class="card__text">
+            Em alguns casos, a pessoa fica presa à fonte de eletricidade.
+          </p>
+        </article>
+
+        <article class="card" data-animate>
+          <h3 class="card__title">Queimaduras</h3>
+          <p class="card__text">
+            Podem ocorrer no ponto de entrada, no ponto de saída e internamente,
+            atingindo músculos e órgãos.
+          </p>
+          <p class="card__text">
+            Lesões internas podem ser mais graves do que aparentam.
+          </p>
+        </article>
+
+        <article class="card" data-animate>
+          <h3 class="card__title">Problemas no coração</h3>
+          <p class="card__text">
+            O coração funciona com impulsos elétricos naturais. 
+            Quando há uma interferência externa, podem ocorrer:
+          </p>
+          <ul class="card__list">
+            <li>Arritmia.</li>
+            <li>Fibrilação ventricular.</li>
+            <li>Parada cardíaca.</li>
+          </ul>
+          <p class="card__text">
+            <span class="warning-text">
+              A fibrilação ventricular é uma das principais causas de morte em acidentes elétricos.
+            </span>
+          </p>
+        </article>
+
+        <article class="card" data-animate>
+          <h3 class="card__title">Problemas respiratórios</h3>
+          <p class="card__text">
+            Pode haver dificuldade para respirar, parada respiratória e falta de
+            oxigenação. Sem oxigênio, o cérebro pode sofrer danos em poucos
+            minutos.
+          </p>
+        </article>
+
+        <article class="card" data-animate>
+          <h3 class="card__title">Danos ao sistema nervoso</h3>
+          <p class="card__text">
+            O sistema nervoso também pode ser afetado. Os sintomas podem incluir:
+          </p>
+          <ul class="card__list">
+            <li>Formigamento.</li>
+            <li>Confusão mental.</li>
+            <li>Convulsões.</li>
+            <li>Perda de consciência.</li>
+          </ul>
+          <p class="card__text">
+            <span class="warning-text">
+              Em casos graves, podem surgir lesões neurológicas permanentes.
+            </span>
+          </p>
+        </article>
+      </div>
+
+      <div class="reaction-grid" data-animate>
+        <article class="reaction reaction--leve">
+          <h3>Choque leve</h3>
+          <ul>
+            <li>Susto.</li>
+            <li>Formigamento.</li>
+            <li>Pequena dor.</li>
+            <li>Contração muscular leve.</li>
+          </ul>
+        </article>
+
+        <article class="reaction reaction--moderado">
+          <h3>Choque moderado</h3>
+          <ul>
+            <li>Dores musculares.</li>
+            <li>Queimaduras leves.</li>
+            <li>Tontura.</li>
+            <li>Dificuldade de respirar.</li>
+          </ul>
+        </article>
+
+        <article class="reaction reaction--grave">
+          <h3>Choque grave</h3>
+          <ul>
+            <li>Desmaio.</li>
+            <li>Convulsões.</li>
+            <li>Parada respiratória.</li>
+            <li>Parada cardíaca.</li>
+          </ul>
+          <p>Nesses casos, o atendimento médico deve ser imediato.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="socorro">
+    <div class="container">
+      <span class="section__badge">Primeiros Socorros</span>
+      <h2 class="section__title">O que fazer em caso de choque elétrico</h2>
+
+      <ol class="steps" data-animate>
+        <li class="step">
+          <h3>1. Desligue a energia</h3>
+          <p>
+            Antes de ajudar, desligue a fonte de energia no disjuntor ou na tomada.
+            Nunca toque diretamente na vítima enquanto houver contato com a corrente.
+          </p>
+        </li>
+        <li class="step">
+          <h3>2. Afaste a vítima com material isolante</h3>
+          <p>Se não for possível desligar imediatamente, use madeira seca, borracha, plástico ou cabo de vassoura. Nunca use metal.</p>
+        </li>
+        <li class="step">
+          <h3>3. Verifique o estado da vítima</h3>
+          <p>Observe se está consciente, respirando e com batimentos cardíacos.</p>
+        </li>
+        <li class="step">
+          <h3>4. Chame socorro</h3>
+          <p>Ligue para SAMU (192) ou Bombeiros (193) imediatamente.</p>
+        </li>
+        <li class="step">
+          <h3>5. Inicie primeiros socorros</h3>
+          <p>
+            Se a pessoa não respirar ou não tiver batimentos, inicie RCP
+            (ressuscitação cardiopulmonar) até a chegada do atendimento.
+          </p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="prevencao">
+    <div class="container">
+      <span class="section__badge">Prevenção</span>
+      <h2 class="section__title">Como prevenir choques elétricos</h2>
+
+      <div class="split" data-animate>
+        <article class="info-panel">
+          <h3>Cuidados em casa</h3>
+          <ul>
+            <li>Não usar fios desencapados.</li>
+            <li>Evitar aparelhos elétricos com mãos molhadas.</li>
+            <li>Manter instalações elétricas revisadas.</li>
+            <li>Usar protetores de tomada.</li>
+            <li>Não sobrecarregar extensões ou tomadas.</li>
+          </ul>
+        </article>
+
+        <article class="info-panel">
+          <h3>Cuidados no trabalho</h3>
+          <p>Profissionais que trabalham com eletricidade devem utilizar:</p>
+          <ul>
+            <li>Equipamentos de proteção individual (EPI).</li>
+            <li>Luvas isolantes.</li>
+            <li>Botas de segurança.</li>
+            <li>Ferramentas isoladas.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="currentYear"></span> Choque Elétrico em Foco | Conteúdo educativo</p>
+      <a href="#hero" class="footer__back-top" aria-label="Voltar ao topo">Voltar ao topo</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
